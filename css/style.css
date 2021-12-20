@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid .icons > i{
+    /* display: inline-block; */
+    margin: 0 5px;
+}
+.navbar{
+    background-color: #7952b3;
+    color: aliceblue;
+    /* height: 500px 0; */
+}
+.navbar .container-fluid img{
+    margin-right: 10px;
+}
+.container-fluid{
+    height: 30px 0 !important;
+}
+.text-color a{
+    color: aliceblue !important; 
+}
+/* hero */
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 130px;
+}
+.hero h1{
+    font-size: 3.5rem;
+}
+.hero p{
+    font-size: 24px;
+    padding-bottom: 10px;
+    color: #495057;
+}
+.hero .btn1{
+    background-color: #61428f;
+    color: white;
+    /* border: 2px solid blueviolet; */
+    text-decoration: none;
+    padding: 14px 27px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.hero .btn1:hover{
+    background-color: rgb(75, 29, 117);
+}
+.hero .btn2{
+    background-color: transparent;
+    color: #6c757d;
+    border: 2px solid #6c757d;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.hero .btn2:hover{
+    background-color: #6c757d;
+    color: aliceblue;
+}
+.hero .visiontext{
+    padding-top: 20px;
+    font-size: 16px;
+}
+.hero .visiontext a{
+    color: #495057;
+}
+.hero span .adobetext{
+    font-size: 16px;
+    display: flex;
+}
+.hero span img{
+    padding-right: 20px;
+}
+.hero span .container{
+    background-color: #f2f2f2;
+    width: 400px;
+    float: left;
+    padding: 10px;
+    display: flex;
+}
+/* Installation */
+.installation{
+    /* max-width: 100px; */
+    display: flex;
+    font-size: 20px;
+}
+.installation .text{
+    width: 50%;
+    padding-left: 130px;
+    padding-top: 50px;
+    
+}
+.installation .text h1{
+    margin-top: 10px;
+}
+.installation .text > p > b{
+    margin-top: 10px;
+}
+.installation .text p{
+    margin-top: 20px;
+}
+.installation .text .readbtn{
+    border: 2px solid #0d6efd;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+.installation .text a{
+    margin-top: 50px;
+}
+.installation .code{
+    padding-top: 120px;
+    width: 50%;
+}
+.installation .container1{
+    background-color: #f8f9fa;
+    padding: 20px;
+    width: 80%;
+}
+.installation .container2{
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-top: 10px;
+    width: 80%;
+}
+/* jsDelivr */
+.jsDelivr{
+    /* max-width: 100px; */
+    display: flex;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.jsDelivr .text{
+    width: 50%;
+    padding-left: 130px;
+    padding-top: 50px;
+    
+}
+.jsDelivr .text p{
+    margin-top: 20px;
+}
+.jsDelivr .text .readbtn{
+    border: 2px solid #0d6efd;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+.jsDelivr .text a{
+    margin-top: 50px;
+}
+.jsDelivr .code{
+    padding-top: 120px;
+    width: 50%;
+}
+.jsDelivr .container1{
+    background-color: #f8f9fa;
+    padding: 20px;
+    width: 80%;
+}
+.jsDelivrn .container2{
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-top: 10px;
+    width: 80%;
+}
+/* Bootstrap Icons */
+.bootstrapicons{
+    width: 100%;
+    display: flex;
+    margin-top: 80px;
+    font-size: 20px;
+    
+}
+.bootstrapicons .text{
+    width: 40%;
+    padding-left: 130px;
+}
+.bootstrapicons .image{
+    width: 40%;
+    display: flex;
+
+}
+.bootstrapicons .image img{
+    height: 300px;
+    margin-left: 130px;
+}
+.bootstrapicons .text .bootstrapbtn{
+    border: 2px solid #0d6efd;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.bootstrapicons .text a{
+    padding-top: 200px;
+}
+/* Official Themes */
+.offcialtheme{
+    width: 100%;
+    display: flex;
+    margin-top: 80px;
+    font-size: 20px;
+    
+}
+.offcialtheme .text{
+    width: 40%;
+    padding-left: 130px;
+    
+}
+
+.offcialtheme .image{
+    width: 40%;
+    display: flex;
+
+}
+.offcialtheme .image img{
+    height: 400px;
+    margin-left: 130px;
+}
+.offcialtheme .text .offcialthemebtn{
+    border: 2px solid #0d6efd;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.offcialtheme .text a{
+    padding-top: 200px;
+}
+/* footer */
+.bootstrapabout{
+    width: 20%;
+    
+}
+.bootstrapabout h5 a{
+    text-decoration: none;
+    color: #495057;
+}
+
+.links{
+    width: 15%;
+}
+/* footer */
+footer{
+    display: flex;
+    background-color: #f8f9fa;
+    color: #6c757d;
+    text-transform: capitalize;
+    padding-left: 80px;
+    margin-top: 80px;
+}
+footer .bootstrapfooter{
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.links ul li{
+    list-style-type: none;
+    padding: 5px 0;
+}
+footer .links a{
+    text-decoration: none;
+    color: #42464b;
+}
+footer .bootstrapfooter > a{
+    text-transform: none;
+}
+footer .bootstrapfooter ul .heading{
+    font-weight: bolder;
+}
+.bootstrapfooter .links a:hover{
+    text-decoration: underline;
+    color: #0d6efd;
+}
+.bootstrapfooter .links ul li .heading{
+    text-decoration: none;
+    cursor: text ;
+}
